@@ -1,0 +1,127 @@
+{
+  "name": "Suchawar - Find Your Perfect Match",
+  "short_name": "Suchawar",
+  "description": "A project of SulookFoundation.org - Pakistan's most trusted matrimonial platform helping thousands find their perfect match",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#8B0000",
+  "background_color": "#ffffff",
+  "categories": ["lifestyle", "social"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/72x72/8B0000/ffffff?text=S",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "badge"
+    },
+    {
+      "src": "https://via.placeholder.com/96x96/8B0000/ffffff?text=S",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/128x128/8B0000/ffffff?text=S",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/144x144/8B0000/ffffff?text=S",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/152x152/8B0000/ffffff?text=S",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/192x192/8B0000/ffffff?text=S",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/384x384/8B0000/ffffff?text=PM",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/8B0000/ffffff?text=PM",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/540x720/8B0000/ffffff?text=PakMatrimony+Mobile",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://via.placeholder.com/1280x720/8B0000/ffffff?text=PakMatrimony+Desktop",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Profiles",
+      "short_name": "Browse",
+      "description": "View available profiles",
+      "url": "/#browse",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96/DC143C/ffffff?text=B",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Create Profile",
+      "short_name": "Register",
+      "description": "Create your matrimonial profile",
+      "url": "/#register",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96/FFD700/8B0000?text=R",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Success Stories",
+      "short_name": "Stories",
+      "description": "Read success stories",
+      "url": "/#success",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96/28a745/ffffff?text=S",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}

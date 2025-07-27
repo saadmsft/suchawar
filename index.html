@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suchavar - Find Your Perfect Match</title>
+    <meta name="description" content="Pakistan's most trusted matrimonial platform by SulookFoundation.org. Find your perfect life partner with detailed profiles and secure communication.">
+    <meta name="keywords" content="Pakistani matrimony, marriage, wedding, shaadi, rishta, bride, groom, Muslim marriage, Pakistani wedding, Suchavar">
+    <meta name="author" content="SulookFoundation.org">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pakmatrimony.com/">
+    <meta property="og:title" content="Suchavar - Find Your Perfect Match">
+    <meta property="og:description" content="Pakistan's most trusted matrimonial platform by SulookFoundation.org helping thousands find their perfect match.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/8B0000/ffffff?text=Suchavar">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pakmatrimony.com/">
+    <meta property="twitter:title" content="Suchavar - Find Your Perfect Match">
+    <meta property="twitter:description" content="Pakistan's most trusted matrimonial platform by SulookFoundation.org helping thousands find their perfect match.">
+    <meta property="twitter:image" content="https://via.placeholder.com/1200x630/8B0000/ffffff?text=Suchavar">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#8B0000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Suchavar">
+    <link rel="apple-touch-icon" href="https://via.placeholder.com/180x180/8B0000/ffffff?text=S">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://via.placeholder.com/32x32/8B0000/ffffff?text=S">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://via.placeholder.com/32x32/8B0000/ffffff?text=S">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://via.placeholder.com/16x16/8B0000/ffffff?text=S">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1><i class="fas fa-heart"></i> Suchavar</h1>
+                    <span class="tagline">A project of SulookFoundation.org</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" data-en="Home" data-ur="ہوم">Home</a></li>
+                    <li><a href="#how-it-works" data-en="How It Works" data-ur="یہ کیسے کام کرتا ہے">How It Works</a></li>
+                    <li><a href="#register" data-en="Register" data-ur="رجسٹر کریں">Register</a></li>
+                    <li><a href="#contact" data-en="Contact Us" data-ur="ہم سے رابطہ کریں">Contact Us</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <div class="language-selector">
+                        <select id="languageSelect" onchange="changeLanguage()">
+                            <option value="en">English</option>
+                            <option value="ur">اردو</option>
+                        </select>
+                    </div>
+                    <button class="btn-login" data-en="Login" data-ur="لاگ ان">Login</button>
+                    <button class="btn-register" data-en="Register Free" data-ur="مفت رجسٹر کریں">Register Free</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-en="Welcome to Suchavar" data-ur="سچاور میں خوش آمدید">Welcome to Suchavar</h1>
+                    <h2 class="hero-subtitle" data-en="Pakistan's Most Trusted Matrimonial Platform" data-ur="پاکستان کا سب سے قابل اعتماد میٹری مونیل پلیٹ فارم">Pakistan's Most Trusted Matrimonial Platform</h2>
+                    <p class="hero-description" data-en="A project of SulookFoundation.org - connecting hearts and building families across Pakistan and beyond. Find your perfect life partner with our comprehensive profiles, intelligent matching system, and secure communication platform." data-ur="سلوک فاؤنڈیشن ڈاٹ آرگ کا ایک منصوبہ - پاکستان اور اس سے آگے دلوں کو جوڑنا اور خاندان بنانا۔ ہمارے جامع پروفائلز، ذہین میچنگ سسٹم، اور محفوظ کمیونیکیشن پلیٹ فارم کے ساتھ اپنا کامل زندگی کا ساتھی تلاش کریں۔">
+                        A project of <strong>SulookFoundation.org</strong> - connecting hearts and building families across Pakistan and beyond. 
+                        Find your perfect life partner with our comprehensive profiles, intelligent matching system, and secure communication platform.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50,000+</div>
+                            <div class="stat-label" data-en="Registered Members" data-ur="رجسٹرڈ ممبرز">Registered Members</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10,000+</div>
+                            <div class="stat-label" data-en="Success Stories" data-ur="کامیابی کی کہانیاں">Success Stories</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99%</div>
+                            <div class="stat-label" data-en="Privacy Protection" data-ur="رازداری کا تحفظ">Privacy Protection</div>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#register" class="btn-primary">
+                            <i class="fas fa-user-plus"></i>
+                            <span data-en="Join Free Today" data-ur="آج مفت شامل ہوں">Join Free Today</span>
+                        </a>
+                        <a href="#contact" class="btn-secondary">
+                            <i class="fas fa-phone"></i>
+                            <span data-en="Contact Us" data-ur="ہم سے رابطہ کریں">Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-card">
+                        <i class="fas fa-heart hero-icon"></i>
+                        <h3 data-en="Find Your Perfect Match" data-ur="اپنا کامل میچ تلاش کریں">Find Your Perfect Match</h3>
+                        <p data-en="Join thousands of Pakistani singles who have found their life partners through Suchavar" data-ur="ہزاروں پاکستانی سنگلز میں شامل ہوں جنہوں نے سچاور کے ذریعے اپنے زندگی کے ساتھی تلاش کیے ہیں">Join thousands of Pakistani singles who have found their life partners through Suchavar</p>
+                        <div class="hero-features">
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span data-en="100% Verified Profiles" data-ur="100% تصدیق شدہ پروفائلز">100% Verified Profiles</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-lock"></i>
+                                <span data-en="Secure & Private" data-ur="محفوظ اور نجی">Secure & Private</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="How Suchavar Works" data-ur="سچاور کیسے کام کرتا ہے">How Suchavar Works</h2>
+                <p class="section-subtitle" data-en="Your journey to finding the perfect match, simplified through technology and privacy" data-ur="کامل میچ تلاش کرنے کا آپ کا سفر، ٹیکنالوجی اور رازداری کے ذریعے آسان بنایا گیا">Your journey to finding the perfect match, simplified through technology and privacy</p>
+            </div>
+
+            <div class="process-flow">
+                <!-- Step 1 -->
+                <div class="process-step" data-step="1">
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                        <div class="step-number">1</div>
+                    </div>
+                    <div class="step-content">
+                        <h3 data-en="Create Your Profile" data-ur="اپنا پروفائل بنائیں">Create Your Profile</h3>
+                        <p data-en="Fill out your detailed profile with personal information, preferences, and what you're looking for in a life partner." data-ur="ذاتی معلومات، ترجیحات، اور آپ زندگی کے ساتھی میں کیا تلاش کر رہے ہیں کے ساتھ اپنا تفصیلی پروفائل بھریں۔">Fill out your detailed profile with personal information, preferences, and what you're looking for in a life partner.</p>
+                    </div>
+                    <div class="step-connector">
+                        <div class="connector-line"></div>
+                        <div class="connector-arrow">
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="process-step" data-step="2">
+                    <div class="step-icon">
+                        <i class="fas fa-database"></i>
+                        <div class="step-number">2</div>
+                    </div>
+                    <div class="step-content">
+                        <h3 data-en="Secure Storage" data-ur="محفوظ اسٹوریج">Secure Storage</h3>
+                        <p data-en="Your profile is safely stored in our secure database with advanced encryption, ensuring complete privacy and data protection." data-ur="آپ کا پروفائل ہمارے محفوظ ڈیٹابیس میں ایڈوانسڈ انکرپشن کے ساتھ محفوظ طریقے سے محفوظ کیا جاتا ہے، مکمل رازداری اور ڈیٹا کی حفاظت کو یقینی بناتا ہے۔">Your profile is safely stored in our secure database with advanced encryption, ensuring complete privacy and data protection.</p>
+                    </div>
+                    <div class="step-connector">
+                        <div class="connector-line"></div>
+                        <div class="connector-arrow">
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="process-step" data-step="3">
+                    <div class="step-icon">
+                        <i class="fas fa-brain"></i>
+                        <div class="step-number">3</div>
+                    </div>
+                    <div class="step-content">
+                        <h3 data-en="AI Matching Algorithm" data-ur="AI میچنگ الگورتھم">AI Matching Algorithm</h3>
+                        <p data-en="Our advanced Machine Learning algorithm analyzes your profile and preferences to find the most compatible matches from our database." data-ur="ہمارا ایڈوانسڈ مشین لرننگ الگورتھم آپ کے پروفائل اور ترجیحات کا تجزیہ کرتا ہے تاکہ ہمارے ڈیٹابیس سے سب سے زیادہ موافق میچز تلاش کر سکے۔">Our advanced Machine Learning algorithm analyzes your profile and preferences to find the most compatible matches from our database.</p>
+                    </div>
+                    <div class="step-connector">
+                        <div class="connector-line"></div>
+                        <div class="connector-arrow">
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="process-step" data-step="4">
+                    <div class="step-icon">
+                        <i class="fab fa-whatsapp"></i>
+                        <div class="step-number">4</div>
+                    </div>
+                    <div class="step-content">
+                        <h3 data-en="Weekly Match Delivery" data-ur="ہفتہ وار میچ کی ترسیل">Weekly Match Delivery</h3>
+                        <p data-en="Every week, carefully selected matches are delivered directly to your WhatsApp, maintaining complete privacy and convenience." data-ur="ہر ہفتے، احتیاط سے منتخب کردہ میچز براہ راست آپ کے واٹس ایپ پر بھیجے جاتے ہیں، مکمل رازداری اور سہولت برقرار رکھتے ہوئے۔">Every week, carefully selected matches are delivered directly to your WhatsApp, maintaining complete privacy and convenience.</p>
+                    </div>
+                    <div class="step-connector">
+                        <div class="connector-line"></div>
+                        <div class="connector-arrow">
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="process-step" data-step="5">
+                    <div class="step-icon">
+                        <i class="fas fa-handshake"></i>
+                        <div class="step-number">5</div>
+                    </div>
+                    <div class="step-content">
+                        <h3 data-en="Mutual Connection" data-ur="باہمی رابطہ">Mutual Connection</h3>
+                        <p data-en="Once both parties express interest and agree to connect, contact details are shared securely, enabling direct communication." data-ur="جب دونوں فریق دلچسپی کا اظہار کرتے ہیں اور رابطے پر اتفاق کرتے ہیں، تو رابطے کی تفصیلات محفوظ طریقے سے شیئر کی جاتی ہیں، براہ راست بات چیت کو قابل بناتے ہوئے۔">Once both parties express interest and agree to connect, contact details are shared securely, enabling direct communication.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visual Diagram -->
+            <div class="diagram-container">
+                <div class="diagram-title">
+                    <h3 data-en="The Suchavar Journey" data-ur="سچاور کا سفر">The Suchavar Journey</h3>
+                    <p data-en="From profile creation to finding your perfect match" data-ur="پروفائل بنانے سے لے کر اپنا کامل میچ تلاش کرنے تک">From profile creation to finding your perfect match</p>
+                </div>
+                
+                <div class="process-diagram">
+                    <div class="diagram-flow">
+                        <!-- Profile Creation -->
+                        <div class="diagram-step step-1">
+                            <div class="diagram-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <span data-en="Your Profile" data-ur="آپ کا پروفائل">Your Profile</span>
+                        </div>
+
+                        <!-- Arrow -->
+                        <div class="diagram-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+
+                        <!-- Storage -->
+                        <div class="diagram-step step-2">
+                            <div class="diagram-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span data-en="Secure Storage" data-ur="محفوظ اسٹوریج">Secure Storage</span>
+                        </div>
+
+                        <!-- Arrow -->
+                        <div class="diagram-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+
+                        <!-- AI Processing -->
+                        <div class="diagram-step step-3">
+                            <div class="diagram-icon ai-processing">
+                                <i class="fas fa-cogs"></i>
+                                <div class="processing-ring"></div>
+                            </div>
+                            <span data-en="AI Matching" data-ur="AI میچنگ">AI Matching</span>
+                        </div>
+
+                        <!-- Arrow -->
+                        <div class="diagram-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+
+                        <!-- WhatsApp Delivery -->
+                        <div class="diagram-step step-4">
+                            <div class="diagram-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <span data-en="Weekly Matches" data-ur="ہفتہ وار میچز">Weekly Matches</span>
+                        </div>
+
+                        <!-- Arrow -->
+                        <div class="diagram-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+
+                        <!-- Connection -->
+                        <div class="diagram-step step-5">
+                            <div class="diagram-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <span data-en="Perfect Match" data-ur="کامل میچ">Perfect Match</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Privacy Promise -->
+            <div class="privacy-promise">
+                <div class="promise-content">
+                    <div class="promise-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="promise-text">
+                        <h3 data-en="Privacy First Approach" data-ur="رازداری پہلے کا نقطہ نظر">Privacy First Approach</h3>
+                        <p data-en="Your personal information is never shared without your explicit consent. Our AI works behind the scenes to protect your privacy while finding your perfect match." data-ur="آپ کی ذاتی معلومات آپ کی واضح رضامندی کے بغیر کبھی شیئر نہیں کی جاتیں۔ ہمارا AI پردے کے پیچھے کام کرتا ہے تاکہ آپ کا کامل میچ تلاش کرتے وقت آپ کی رازداری کا تحفظ کر سکے۔">Your personal information is never shared without your explicit consent. Our AI works behind the scenes to protect your privacy while finding your perfect match.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="works-cta">
+                <h3 data-en="Ready to Find Your Perfect Match?" data-ur="اپنا کامل میچ تلاش کرنے کے لیے تیار ہیں؟">Ready to Find Your Perfect Match?</h3>
+                <p data-en="Join thousands who have found love through our intelligent matching system" data-ur="ہزاروں لوگوں میں شامل ہوں جنہوں نے ہمارے ذہین میچنگ سسٹم کے ذریعے محبت پائی ہے">Join thousands who have found love through our intelligent matching system</p>
+                <div class="cta-buttons">
+                    <a href="#register" class="btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        <span data-en="Start Your Journey" data-ur="اپنا سفر شروع کریں">Start Your Journey</span>
+                    </a>
+                    <a href="#contact" class="btn-secondary">
+                        <i class="fas fa-question-circle"></i>
+                        <span data-en="Learn More" data-ur="مزید جانیں">Learn More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="register" class="registration-section">
+        <div class="container">
+            <h2 class="section-title" data-en="Create Your Profile" data-ur="اپنا پروفائل بنائیں">Create Your Profile</h2>
+            <p class="section-subtitle" data-en="Join thousands of Pakistani singles looking for their perfect match" data-ur="ہزاروں پاکستانی سنگلز میں شامل ہوں جو اپنا کامل میچ تلاش کر رہے ہیں">Join thousands of Pakistani singles looking for their perfect match</p>
+            
+            <div class="form-container">
+                <form id="registrationForm" class="registration-form">
+                    <!-- Personal Information -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="Personal Information" data-ur="ذاتی معلومات">
+                            <i class="fas fa-user"></i>
+                            Personal Information
+                        </h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="fullName" data-en="Full Name *" data-ur="مکمل نام *">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required placeholder-en="Enter your full name" placeholder-ur="اپنا مکمل نام درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="gender" data-en="Gender *" data-ur="جنس *">Gender *</label>
+                                <select id="gender" name="gender" required>
+                                    <option value="" data-en="Select Gender" data-ur="جنس منتخب کریں">Select Gender</option>
+                                    <option value="male" data-en="Male" data-ur="مرد">Male</option>
+                                    <option value="female" data-en="Female" data-ur="عورت">Female</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="dateOfBirth" data-en="Date of Birth *" data-ur="تاریخ پیدائش *">Date of Birth *</label>
+                                <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="maritalStatus" data-en="Marital Status *" data-ur="ازدواجی حیثیت *">Marital Status *</label>
+                                <select id="maritalStatus" name="maritalStatus" required>
+                                    <option value="" data-en="Select Status" data-ur="حیثیت منتخب کریں">Select Status</option>
+                                    <option value="never-married" data-en="Never Married" data-ur="غیر شادی شدہ">Never Married</option>
+                                    <option value="divorced" data-en="Divorced" data-ur="طلاق یافتہ">Divorced</option>
+                                    <option value="widowed" data-en="Widowed" data-ur="بیوہ">Widowed</option>
+                                    <option value="separated" data-en="Separated" data-ur="علیحدہ">Separated</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="height" data-en="Height *" data-ur="قد *">Height *</label>
+                                <select id="height" name="height" required data-en-default="Select Height" data-ur-default="قد منتخب کریں">
+                                    <option value="" data-en="Select Height" data-ur="قد منتخب کریں">Select Height</option>
+                                    <option value="4ft-6in" data-en="4'6\" (137 cm)" data-ur="4'6\" (137 سینٹی میٹر)">4'6" (137 cm)</option>
+                                    <option value="4ft-7in" data-en="4'7\" (140 cm)" data-ur="4'7\" (140 سینٹی میٹر)">4'7" (140 cm)</option>
+                                    <option value="4ft-8in" data-en="4'8\" (142 cm)" data-ur="4'8\" (142 سینٹی میٹر)">4'8" (142 cm)</option>
+                                    <option value="4ft-9in" data-en="4'9\" (145 cm)" data-ur="4'9\" (145 سینٹی میٹر)">4'9" (145 cm)</option>
+                                    <option value="4ft-10in" data-en="4'10\" (147 cm)" data-ur="4'10\" (147 سینٹی میٹر)">4'10" (147 cm)</option>
+                                    <option value="4ft-11in" data-en="4'11\" (150 cm)" data-ur="4'11\" (150 سینٹی میٹر)">4'11" (150 cm)</option>
+                                    <option value="5ft" data-en="5'0\" (152 cm)" data-ur="5'0\" (152 سینٹی میٹر)">5'0" (152 cm)</option>
+                                    <option value="5ft-1in" data-en="5'1\" (155 cm)" data-ur="5'1\" (155 سینٹی میٹر)">5'1" (155 cm)</option>
+                                    <option value="5ft-2in" data-en="5'2\" (157 cm)" data-ur="5'2\" (157 سینٹی میٹر)">5'2" (157 cm)</option>
+                                    <option value="5ft-3in" data-en="5'3\" (160 cm)" data-ur="5'3\" (160 سینٹی میٹر)">5'3" (160 cm)</option>
+                                    <option value="5ft-4in" data-en="5'4\" (163 cm)" data-ur="5'4\" (163 سینٹی میٹر)">5'4" (163 cm)</option>
+                                    <option value="5ft-5in" data-en="5'5\" (165 cm)" data-ur="5'5\" (165 سینٹی میٹر)">5'5" (165 cm)</option>
+                                    <option value="5ft-6in" data-en="5'6\" (168 cm)" data-ur="5'6\" (168 سینٹی میٹر)">5'6" (168 cm)</option>
+                                    <option value="5ft-7in" data-en="5'7\" (170 cm)" data-ur="5'7\" (170 سینٹی میٹر)">5'7" (170 cm)</option>
+                                    <option value="5ft-8in" data-en="5'8\" (173 cm)" data-ur="5'8\" (173 سینٹی میٹر)">5'8" (173 cm)</option>
+                                    <option value="5ft-9in" data-en="5'9\" (175 cm)" data-ur="5'9\" (175 سینٹی میٹر)">5'9" (175 cm)</option>
+                                    <option value="5ft-10in" data-en="5'10\" (178 cm)" data-ur="5'10\" (178 سینٹی میٹر)">5'10" (178 cm)</option>
+                                    <option value="5ft-11in" data-en="5'11\" (180 cm)" data-ur="5'11\" (180 سینٹی میٹر)">5'11" (180 cm)</option>
+                                    <option value="6ft" data-en="6'0\" (183 cm)" data-ur="6'0\" (183 سینٹی میٹر)">6'0" (183 cm)</option>
+                                    <option value="6ft-1in" data-en="6'1\" (185 cm)" data-ur="6'1\" (185 سینٹی میٹر)">6'1" (185 cm)</option>
+                                    <option value="6ft-2in" data-en="6'2\" (188 cm)" data-ur="6'2\" (188 سینٹی میٹر)">6'2" (188 cm)</option>
+                                    <option value="6ft-3in" data-en="6'3\" (191 cm)" data-ur="6'3\" (191 سینٹی میٹر)">6'3" (191 cm)</option>
+                                    <option value="6ft-4in" data-en="6'4\" (193 cm)" data-ur="6'4\" (193 سینٹی میٹر)">6'4" (193 cm)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="bodyType" data-en="Body Type" data-ur="جسمانی ساخت">Body Type</label>
+                                <select id="bodyType" name="bodyType" data-en-default="Select Body Type" data-ur-default="جسمانی ساخت منتخب کریں">
+                                    <option value="" data-en="Select Body Type" data-ur="جسمانی ساخت منتخب کریں">Select Body Type</option>
+                                    <option value="slim" data-en="Slim" data-ur="دبلا پتلا">Slim</option>
+                                    <option value="average" data-en="Average" data-ur="اوسط">Average</option>
+                                    <option value="athletic" data-en="Athletic" data-ur="کھلاڑی">Athletic</option>
+                                    <option value="heavy" data-en="Heavy" data-ur="بھاری">Heavy</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="Contact Information" data-ur="رابطہ کی معلومات">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Contact Information
+                        </h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="email" data-en="Email Address *" data-ur="ای میل ایڈریس *">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email" data-en-placeholder="Enter your email" data-ur-placeholder="اپنا ای میل درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" data-en="Phone Number *" data-ur="فون نمبر *">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" data-en-placeholder="Enter your phone number" data-ur-placeholder="اپنا فون نمبر درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="country" data-en="Country *" data-ur="ملک *">Country *</label>
+                                <select id="country" name="country" required data-en-default="Select Country" data-ur-default="ملک منتخب کریں">
+                                    <option value="" data-en="Select Country" data-ur="ملک منتخب کریں">Select Country</option>
+                                    <option value="pakistan" data-en="Pakistan" data-ur="پاکستان">Pakistan</option>
+                                    <option value="usa" data-en="United States" data-ur="امریکہ">United States</option>
+                                    <option value="uk" data-en="United Kingdom" data-ur="برطانیہ">United Kingdom</option>
+                                    <option value="canada" data-en="Canada" data-ur="کینیڈا">Canada</option>
+                                    <option value="australia" data-en="Australia" data-ur="آسٹریلیا">Australia</option>
+                                    <option value="uae" data-en="UAE" data-ur="متحدہ عرب امارات">UAE</option>
+                                    <option value="saudi-arabia" data-en="Saudi Arabia" data-ur="سعودی عرب">Saudi Arabia</option>
+                                    <option value="other" data-en="Other" data-ur="دیگر">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="city" data-en="City *" data-ur="شہر *">City *</label>
+                                <input type="text" id="city" name="city" required placeholder="Enter your city" data-en-placeholder="Enter your city" data-ur-placeholder="اپنا شہر درج کریں">
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="address" data-en="Complete Address" data-ur="مکمل پتہ">Complete Address</label>
+                                <textarea id="address" name="address" rows="3" placeholder="Enter your complete address" data-en-placeholder="Enter your complete address" data-ur-placeholder="اپنا مکمل پتہ درج کریں"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Religious Information -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="Religious Information" data-ur="مذہبی معلومات">
+                            <i class="fas fa-pray"></i>
+                            Religious Information
+                        </h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="religion" data-en="Religion *" data-ur="مذہب *">Religion *</label>
+                                <select id="religion" name="religion" required data-en-default="Select Religion" data-ur-default="مذہب منتخب کریں">
+                                    <option value="" data-en="Select Religion" data-ur="مذہب منتخب کریں">Select Religion</option>
+                                    <option value="islam" data-en="Islam" data-ur="اسلام">Islam</option>
+                                    <option value="christianity" data-en="Christianity" data-ur="عیسائیت">Christianity</option>
+                                    <option value="hinduism" data-en="Hinduism" data-ur="ہندو مت">Hinduism</option>
+                                    <option value="sikhism" data-en="Sikhism" data-ur="سکھ مت">Sikhism</option>
+                                    <option value="other" data-en="Other" data-ur="دیگر">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="sect" data-en="Sect/Denomination" data-ur="فرقہ">Sect/Denomination</label>
+                                <select id="sect" name="sect" data-en-default="Select Sect" data-ur-default="فرقہ منتخب کریں">
+                                    <option value="" data-en="Select Sect" data-ur="فرقہ منتخب کریں">Select Sect</option>
+                                    <option value="sunni" data-en="Sunni" data-ur="سنی">Sunni</option>
+                                    <option value="shia" data-en="Shia" data-ur="شیعہ">Shia</option>
+                                    <option value="ahmadiyya" data-en="Ahmadiyya" data-ur="احمدیہ">Ahmadiyya</option>
+                                    <option value="other" data-en="Other" data-ur="دیگر">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="religiousPractice" data-en="Religious Practice" data-ur="مذہبی عمل">Religious Practice</label>
+                                <select id="religiousPractice" name="religiousPractice" data-en-default="Select Level" data-ur-default="سطح منتخب کریں">
+                                    <option value="" data-en="Select Level" data-ur="سطح منتخب کریں">Select Level</option>
+                                    <option value="very-religious" data-en="Very Religious" data-ur="بہت مذہبی">Very Religious</option>
+                                    <option value="religious" data-en="Religious" data-ur="مذہبی">Religious</option>
+                                    <option value="somewhat-religious" data-en="Somewhat Religious" data-ur="کسی حد تک مذہبی">Somewhat Religious</option>
+                                    <option value="not-religious" data-en="Not Religious" data-ur="غیر مذہبی">Not Religious</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="prayers" data-en="Prayers" data-ur="نماز">Prayers</label>
+                                <select id="prayers" name="prayers" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="always" data-en="Always" data-ur="ہمیشہ">Always</option>
+                                    <option value="often" data-en="Often" data-ur="اکثر">Often</option>
+                                    <option value="sometimes" data-en="Sometimes" data-ur="کبھی کبھار">Sometimes</option>
+                                    <option value="never" data-en="Never" data-ur="کبھی نہیں">Never</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Family Information -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="Family Information" data-ur="خاندانی معلومات">
+                            <i class="fas fa-home"></i>
+                            Family Information
+                        </h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="fatherName" data-en="Father's Name" data-ur="والد کا نام">Father's Name</label>
+                                <input type="text" id="fatherName" name="fatherName" placeholder="Enter father's name" data-en-placeholder="Enter father's name" data-ur-placeholder="والد کا نام درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="fatherOccupation" data-en="Father's Occupation" data-ur="والد کا پیشہ">Father's Occupation</label>
+                                <input type="text" id="fatherOccupation" name="fatherOccupation" placeholder="Enter father's occupation" data-en-placeholder="Enter father's occupation" data-ur-placeholder="والد کا پیشہ درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="motherName" data-en="Mother's Name" data-ur="والدہ کا نام">Mother's Name</label>
+                                <input type="text" id="motherName" name="motherName" placeholder="Enter mother's name" data-en-placeholder="Enter mother's name" data-ur-placeholder="والدہ کا نام درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="motherOccupation" data-en="Mother's Occupation" data-ur="والدہ کا پیشہ">Mother's Occupation</label>
+                                <input type="text" id="motherOccupation" name="motherOccupation" placeholder="Enter mother's occupation" data-en-placeholder="Enter mother's occupation" data-ur-placeholder="والدہ کا پیشہ درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="brothers" data-en="Number of Brothers" data-ur="بھائیوں کی تعداد">Number of Brothers</label>
+                                <select id="brothers" name="brothers" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="0" data-en="0" data-ur="0">0</option>
+                                    <option value="1" data-en="1" data-ur="1">1</option>
+                                    <option value="2" data-en="2" data-ur="2">2</option>
+                                    <option value="3" data-en="3" data-ur="3">3</option>
+                                    <option value="4" data-en="4" data-ur="4">4</option>
+                                    <option value="5+" data-en="5+" data-ur="5+">5+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="sisters" data-en="Number of Sisters" data-ur="بہنوں کی تعداد">Number of Sisters</label>
+                                <select id="sisters" name="sisters" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="0" data-en="0" data-ur="0">0</option>
+                                    <option value="1" data-en="1" data-ur="1">1</option>
+                                    <option value="2" data-en="2" data-ur="2">2</option>
+                                    <option value="3" data-en="3" data-ur="3">3</option>
+                                    <option value="4" data-en="4" data-ur="4">4</option>
+                                    <option value="5+" data-en="5+" data-ur="5+">5+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="familyType" data-en="Family Type" data-ur="خاندان کی قسم">Family Type</label>
+                                <select id="familyType" name="familyType" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="nuclear" data-en="Nuclear Family" data-ur="چھوٹا خاندان">Nuclear Family</option>
+                                    <option value="joint" data-en="Joint Family" data-ur="مشترکہ خاندان">Joint Family</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="familyValues" data-en="Family Values" data-ur="خاندانی اقدار">Family Values</label>
+                                <select id="familyValues" name="familyValues" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="traditional" data-en="Traditional" data-ur="روایتی">Traditional</option>
+                                    <option value="moderate" data-en="Moderate" data-ur="اعتدال پسند">Moderate</option>
+                                    <option value="liberal" data-en="Liberal" data-ur="لبرل">Liberal</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education & Career -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="Education & Career" data-ur="تعلیم اور کیریئر">
+                            <i class="fas fa-graduation-cap"></i>
+                            Education & Career
+                        </h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="education" data-en="Highest Education *" data-ur="اعلیٰ تعلیم *">Highest Education *</label>
+                                <select id="education" name="education" required data-en-default="Select Education" data-ur-default="تعلیم منتخب کریں">
+                                    <option value="" data-en="Select Education" data-ur="تعلیم منتخب کریں">Select Education</option>
+                                    <option value="matric" data-en="Matric" data-ur="میٹرک">Matric</option>
+                                    <option value="intermediate" data-en="Intermediate" data-ur="انٹرمیڈیٹ">Intermediate</option>
+                                    <option value="bachelors" data-en="Bachelor's Degree" data-ur="بیچلر ڈگری">Bachelor's Degree</option>
+                                    <option value="masters" data-en="Master's Degree" data-ur="ماسٹر ڈگری">Master's Degree</option>
+                                    <option value="phd" data-en="PhD" data-ur="پی ایچ ڈی">PhD</option>
+                                    <option value="diploma" data-en="Diploma" data-ur="ڈپلومہ">Diploma</option>
+                                    <option value="other" data-en="Other" data-ur="دیگر">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="fieldOfStudy" data-en="Field of Study" data-ur="تعلیم کا شعبہ">Field of Study</label>
+                                <input type="text" id="fieldOfStudy" name="fieldOfStudy" placeholder="Enter field of study" data-en-placeholder="Enter field of study" data-ur-placeholder="تعلیم کا شعبہ درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="occupation" data-en="Occupation *" data-ur="پیشہ *">Occupation *</label>
+                                <select id="occupation" name="occupation" required data-en-default="Select Occupation" data-ur-default="پیشہ منتخب کریں">
+                                    <option value="" data-en="Select Occupation" data-ur="پیشہ منتخب کریں">Select Occupation</option>
+                                    <option value="student" data-en="Student" data-ur="طالب علم">Student</option>
+                                    <option value="business" data-en="Business" data-ur="کاروبار">Business</option>
+                                    <option value="service" data-en="Service/Job" data-ur="ملازمت">Service/Job</option>
+                                    <option value="doctor" data-en="Doctor" data-ur="ڈاکٹر">Doctor</option>
+                                    <option value="engineer" data-en="Engineer" data-ur="انجینئر">Engineer</option>
+                                    <option value="teacher" data-en="Teacher" data-ur="استاد">Teacher</option>
+                                    <option value="lawyer" data-en="Lawyer" data-ur="وکیل">Lawyer</option>
+                                    <option value="housewife" data-en="Housewife" data-ur="گھریلو خاتون">Housewife</option>
+                                    <option value="unemployed" data-en="Unemployed" data-ur="بے روزگار">Unemployed</option>
+                                    <option value="other" data-en="Other" data-ur="دیگر">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="jobTitle" data-en="Job Title/Position" data-ur="عہدہ">Job Title/Position</label>
+                                <input type="text" id="jobTitle" name="jobTitle" placeholder="Enter job title" data-en-placeholder="Enter job title" data-ur-placeholder="عہدہ درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="company" data-en="Company/Organization" data-ur="کمپنی/ادارہ">Company/Organization</label>
+                                <input type="text" id="company" name="company" placeholder="Enter company name" data-en-placeholder="Enter company name" data-ur-placeholder="کمپنی کا نام درج کریں">
+                            </div>
+                            <div class="form-group">
+                                <label for="income" data-en="Monthly Income (PKR)" data-ur="ماہانہ آمدن (پاکستانی روپے)">Monthly Income (PKR)</label>
+                                <select id="income" name="income" data-en-default="Select Income Range" data-ur-default="آمدنی کی حد منتخب کریں">
+                                    <option value="" data-en="Select Income Range" data-ur="آمدنی کی حد منتخب کریں">Select Income Range</option>
+                                    <option value="below-25000" data-en="Below 25,000" data-ur="25،000 سے کم">Below 25,000</option>
+                                    <option value="25000-50000" data-en="25,000 - 50,000" data-ur="25،000 - 50،000">25,000 - 50,000</option>
+                                    <option value="50000-100000" data-en="50,000 - 1,00,000" data-ur="50،000 - 1،00،000">50,000 - 1,00,000</option>
+                                    <option value="100000-200000" data-en="1,00,000 - 2,00,000" data-ur="1،00،000 - 2،00،000">1,00,000 - 2,00,000</option>
+                                    <option value="200000-500000" data-en="2,00,000 - 5,00,000" data-ur="2،00،000 - 5،00،000">2,00,000 - 5,00,000</option>
+                                    <option value="above-500000" data-en="Above 5,00,000" data-ur="5،00،000 سے زیادہ">Above 5,00,000</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Physical Attributes -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="Physical Attributes" data-ur="جسمانی خصوصیات">
+                            <i class="fas fa-eye"></i>
+                            Physical Attributes
+                        </h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="complexion" data-en="Complexion" data-ur="رنگت">Complexion</label>
+                                <select id="complexion" name="complexion" data-en-default="Select Complexion" data-ur-default="رنگت منتخب کریں">
+                                    <option value="" data-en="Select Complexion" data-ur="رنگت منتخب کریں">Select Complexion</option>
+                                    <option value="very-fair" data-en="Very Fair" data-ur="بہت گورا">Very Fair</option>
+                                    <option value="fair" data-en="Fair" data-ur="گورا">Fair</option>
+                                    <option value="wheatish" data-en="Wheatish" data-ur="گندمی">Wheatish</option>
+                                    <option value="wheatish-brown" data-en="Wheatish Brown" data-ur="گندمی بھورا">Wheatish Brown</option>
+                                    <option value="dark" data-en="Dark" data-ur="سانولا">Dark</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="eyeColor" data-en="Eye Color" data-ur="آنکھوں کا رنگ">Eye Color</label>
+                                <select id="eyeColor" name="eyeColor" data-en-default="Select Eye Color" data-ur-default="آنکھوں کا رنگ منتخب کریں">
+                                    <option value="" data-en="Select Eye Color" data-ur="آنکھوں کا رنگ منتخب کریں">Select Eye Color</option>
+                                    <option value="black" data-en="Black" data-ur="کالا">Black</option>
+                                    <option value="brown" data-en="Brown" data-ur="بھورا">Brown</option>
+                                    <option value="hazel" data-en="Hazel" data-ur="بھورا سبز">Hazel</option>
+                                    <option value="green" data-en="Green" data-ur="سبز">Green</option>
+                                    <option value="blue" data-en="Blue" data-ur="نیلا">Blue</option>
+                                    <option value="gray" data-en="Gray" data-ur="سرمئی">Gray</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="hairColor" data-en="Hair Color" data-ur="بالوں کا رنگ">Hair Color</label>
+                                <select id="hairColor" name="hairColor" data-en-default="Select Hair Color" data-ur-default="بالوں کا رنگ منتخب کریں">
+                                    <option value="" data-en="Select Hair Color" data-ur="بالوں کا رنگ منتخب کریں">Select Hair Color</option>
+                                    <option value="black" data-en="Black" data-ur="کالے">Black</option>
+                                    <option value="brown" data-en="Brown" data-ur="بھورے">Brown</option>
+                                    <option value="blonde" data-en="Blonde" data-ur="سنہرے">Blonde</option>
+                                    <option value="gray" data-en="Gray" data-ur="سرمئی">Gray</option>
+                                    <option value="white" data-en="White" data-ur="سفید">White</option>
+                                    <option value="other" data-en="Other" data-ur="دیگر">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="disability" data-en="Any Disability" data-ur="کوئی معذوری">Any Disability</label>
+                                <select id="disability" name="disability" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="none" data-en="None" data-ur="کوئی نہیں">None</option>
+                                    <option value="physical" data-en="Physical" data-ur="جسمانی">Physical</option>
+                                    <option value="hearing" data-en="Hearing" data-ur="سماعت">Hearing</option>
+                                    <option value="vision" data-en="Vision" data-ur="بصارت">Vision</option>
+                                    <option value="other" data-en="Other" data-ur="دیگر">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lifestyle Information -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="Lifestyle & Preferences" data-ur="طرز زندگی اور ترجیحات">
+                            <i class="fas fa-heart"></i>
+                            Lifestyle & Preferences
+                        </h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="smoking" data-en="Smoking" data-ur="سگریٹ نوشی">Smoking</label>
+                                <select id="smoking" name="smoking" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="never" data-en="Never" data-ur="کبھی نہیں">Never</option>
+                                    <option value="occasionally" data-en="Occasionally" data-ur="کبھی کبھار">Occasionally</option>
+                                    <option value="regularly" data-en="Regularly" data-ur="باقاعدگی سے">Regularly</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="drinking" data-en="Drinking" data-ur="شراب نوشی">Drinking</label>
+                                <select id="drinking" name="drinking" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="never" data-en="Never" data-ur="کبھی نہیں">Never</option>
+                                    <option value="occasionally" data-en="Occasionally" data-ur="کبھی کبھار">Occasionally</option>
+                                    <option value="regularly" data-en="Regularly" data-ur="باقاعدگی سے">Regularly</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="diet" data-en="Diet" data-ur="خوراک">Diet</label>
+                                <select id="diet" name="diet" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="vegetarian" data-en="Vegetarian" data-ur="سبزی خور">Vegetarian</option>
+                                    <option value="non-vegetarian" data-en="Non-Vegetarian" data-ur="گوشت خور">Non-Vegetarian</option>
+                                    <option value="vegan" data-en="Vegan" data-ur="نباتی">Vegan</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="hobbies" data-en="Hobbies & Interests" data-ur="شوق اور دلچسپیاں">Hobbies & Interests</label>
+                                <input type="text" id="hobbies" name="hobbies" placeholder="e.g., Reading, Cooking, Sports" data-en-placeholder="e.g., Reading, Cooking, Sports" data-ur-placeholder="مثلاً پڑھنا، کھانا پکانا، کھیل">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- About Me -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="About Me" data-ur="میرے بارے میں">
+                            <i class="fas fa-user-edit"></i>
+                            About Me
+                        </h3>
+                        <div class="form-group full-width">
+                            <label for="aboutMe" data-en="Tell us about yourself" data-ur="اپنے بارے میں بتائیں">Tell us about yourself</label>
+                            <textarea id="aboutMe" name="aboutMe" rows="5" placeholder="Write a brief description about yourself, your personality, values, and what you're looking for in a life partner..." data-en-placeholder="Write a brief description about yourself, your personality, values, and what you're looking for in a life partner..." data-ur-placeholder="اپنے بارے میں، اپنی شخصیت، اقدار، اور زندگی کے ساتھی میں کیا تلاش کر رہے ہیں اس کے بارے میں مختصر تفصیل لکھیں..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Partner Preferences -->
+                    <div class="form-section">
+                        <h3 class="form-section-title" data-en="Partner Preferences" data-ur="ساتھی کی ترجیحات">
+                            <i class="fas fa-search-heart"></i>
+                            Partner Preferences
+                        </h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="partnerAgeFrom" data-en="Age Range From" data-ur="عمر کی حد سے">Age Range From</label>
+                                <select id="partnerAgeFrom" name="partnerAgeFrom" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="18" data-en="18" data-ur="18">18</option>
+                                    <option value="20" data-en="20" data-ur="20">20</option>
+                                    <option value="22" data-en="22" data-ur="22">22</option>
+                                    <option value="25" data-en="25" data-ur="25">25</option>
+                                    <option value="28" data-en="28" data-ur="28">28</option>
+                                    <option value="30" data-en="30" data-ur="30">30</option>
+                                    <option value="35" data-en="35" data-ur="35">35</option>
+                                    <option value="40" data-en="40" data-ur="40">40</option>
+                                    <option value="45" data-en="45" data-ur="45">45</option>
+                                    <option value="50" data-en="50" data-ur="50">50</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="partnerAgeTo" data-en="Age Range To" data-ur="عمر کی حد تک">Age Range To</label>
+                                <select id="partnerAgeTo" name="partnerAgeTo" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="25" data-en="25" data-ur="25">25</option>
+                                    <option value="30" data-en="30" data-ur="30">30</option>
+                                    <option value="35" data-en="35" data-ur="35">35</option>
+                                    <option value="40" data-en="40" data-ur="40">40</option>
+                                    <option value="45" data-en="45" data-ur="45">45</option>
+                                    <option value="50" data-en="50" data-ur="50">50</option>
+                                    <option value="55" data-en="55" data-ur="55">55</option>
+                                    <option value="60" data-en="60" data-ur="60">60</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="partnerEducation" data-en="Preferred Education" data-ur="ترجیحی تعلیم">Preferred Education</label>
+                                <select id="partnerEducation" name="partnerEducation" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="any" data-en="Any" data-ur="کوئی بھی">Any</option>
+                                    <option value="graduate" data-en="Graduate & Above" data-ur="گریجویٹ اور اس سے اوپر">Graduate & Above</option>
+                                    <option value="postgraduate" data-en="Post Graduate" data-ur="پوسٹ گریجویٹ">Post Graduate</option>
+                                    <option value="professional" data-en="Professional Degree" data-ur="پیشہ ورانہ ڈگری">Professional Degree</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="partnerOccupation" data-en="Preferred Occupation" data-ur="ترجیحی پیشہ">Preferred Occupation</label>
+                                <select id="partnerOccupation" name="partnerOccupation" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="any" data-en="Any" data-ur="کوئی بھی">Any</option>
+                                    <option value="business" data-en="Business" data-ur="کاروبار">Business</option>
+                                    <option value="service" data-en="Service" data-ur="ملازمت">Service</option>
+                                    <option value="professional" data-en="Professional" data-ur="پیشہ ور">Professional</option>
+                                    <option value="homemaker" data-en="Homemaker" data-ur="گھریلو">Homemaker</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="partnerIncome" data-en="Preferred Income" data-ur="ترجیحی آمدن">Preferred Income</label>
+                                <select id="partnerIncome" name="partnerIncome" data-en-default="Select" data-ur-default="منتخب کریں">
+                                    <option value="" data-en="Select" data-ur="منتخب کریں">Select</option>
+                                    <option value="any" data-en="Any" data-ur="کوئی بھی">Any</option>
+                                    <option value="50000+" data-en="50,000+ PKR" data-ur="50،000+ پاکستانی روپے">50,000+ PKR</option>
+                                    <option value="100000+" data-en="1,00,000+ PKR" data-ur="1،00،000+ پاکستانی روپے">1,00,000+ PKR</option>
+                                    <option value="200000+" data-en="2,00,000+ PKR" data-ur="2،00،000+ پاکستانی روپے">2,00,000+ PKR</option>
+                                    <option value="500000+" data-en="5,00,000+ PKR" data-ur="5،00،000+ پاکستانی روپے">5,00,000+ PKR</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="partnerLocation" data-en="Preferred Location" data-ur="ترجیحی مقام">Preferred Location</label>
+                                <input type="text" id="partnerLocation" name="partnerLocation" placeholder="City, Country" data-en-placeholder="City, Country" data-ur-placeholder="شہر، ملک">
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="partnerExpectations" data-en="What are you looking for in a partner?" data-ur="آپ ساتھی میں کیا تلاش کر رہے ہیں؟">What are you looking for in a partner?</label>
+                            <textarea id="partnerExpectations" name="partnerExpectations" rows="4" placeholder="Describe your expectations and preferences for your ideal life partner..." data-en-placeholder="Describe your expectations and preferences for your ideal life partner..." data-ur-placeholder="اپنے مثالی زندگی کے ساتھی کے لیے اپنی توقعات اور ترجیحات بیان کریں..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Terms and Submit -->
+                    <div class="form-section">
+                        <div class="terms-section">
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="terms" name="terms" required>
+                                <span class="checkmark"></span>
+                                <span data-en="I agree to the Terms & Conditions and Privacy Policy" data-ur="میں شرائط و ضوابط اور پرائیویسی پالیسی سے اتفاق کرتا ہوں">I agree to the <a href="#terms">Terms & Conditions</a> and <a href="#privacy">Privacy Policy</a></span>
+                            </label>
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                <span data-en="Subscribe to our newsletter for match suggestions and updates" data-ur="میچ کی تجاویز اور اپڈیٹس کے لیے ہمارے نیوز لیٹر کو سبسکرائب کریں">Subscribe to our newsletter for match suggestions and updates</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-heart"></i>
+                            <span data-en="Create My Profile" data-ur="میرا پروفائل بنائیں">Create My Profile</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-en="Contact Us" data-ur="رابطہ کریں">Contact Us</h2>
+            <p class="section-subtitle" data-en="Get in touch with us for any queries or support" data-ur="کسی بھی سوال یا مدد کے لیے ہم سے رابطہ کریں">Get in touch with us for any queries or support</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-en="Address" data-ur="پتہ">Address</h4>
+                            <p data-en="Karachi, Pakistan" data-ur="کراچی، پاکستان">Karachi, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-en="Phone" data-ur="فون">Phone</h4>
+                            <p>+92 300 1234567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-en="Email" data-ur="ای میل">Email</h4>
+                            <p>info@suchavar.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4 data-en="Working Hours" data-ur="کام کے اوقات">Working Hours</h4>
+                            <p data-en="Monday - Friday: 9:00 AM - 6:00 PM" data-ur="پیر سے جمعہ: صبح 9:00 سے شام 6:00 تک">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName" data-en="Full Name *" data-ur="مکمل نام *">Full Name *</label>
+                            <input type="text" id="contactName" name="contactName" required data-en-placeholder="Enter your full name" data-ur-placeholder="اپنا مکمل نام درج کریں">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail" data-en="Email Address *" data-ur="ای میل پتہ *">Email Address *</label>
+                            <input type="email" id="contactEmail" name="contactEmail" required data-en-placeholder="Enter your email address" data-ur-placeholder="اپنا ای میل پتہ درج کریں">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactPhone" data-en="Phone Number" data-ur="فون نمبر">Phone Number</label>
+                            <input type="tel" id="contactPhone" name="contactPhone" data-en-placeholder="Enter your phone number" data-ur-placeholder="اپنا فون نمبر درج کریں">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject" data-en="Subject *" data-ur="موضوع *">Subject *</label>
+                            <select id="contactSubject" name="contactSubject" required data-en-default="Select Subject" data-ur-default="موضوع منتخب کریں">
+                                <option value="" data-en="Select Subject" data-ur="موضوع منتخب کریں">Select Subject</option>
+                                <option value="general" data-en="General Inquiry" data-ur="عمومی استفسار">General Inquiry</option>
+                                <option value="support" data-en="Technical Support" data-ur="تکنیکی مدد">Technical Support</option>
+                                <option value="profile" data-en="Profile Related" data-ur="پروفائل سے متعلق">Profile Related</option>
+                                <option value="payment" data-en="Payment Issues" data-ur="ادائیگی کے مسائل">Payment Issues</option>
+                                <option value="feedback" data-en="Feedback" data-ur="رائے">Feedback</option>
+                                <option value="other" data-en="Other" data-ur="دیگر">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage" data-en="Message *" data-ur="پیغام *">Message *</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="5" required placeholder="Please describe your query or message..." data-en-placeholder="Please describe your query or message..." data-ur-placeholder="براہ کرم اپنے سوال یا پیغام کی تفصیل بیان کریں..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            <span data-en="Send Message" data-ur="پیغام بھیجیں">Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Suchavar</h3>
+                    <p data-en="A project of SulookFoundation.org - Pakistan's most trusted matrimonial platform helping thousands find their perfect match." data-ur="سلوک فاؤنڈیشن ڈاٹ آرگ کا ایک منصوبہ - پاکستان کا سب سے قابل اعتماد میٹری مونیل پلیٹ فارم جو ہزاروں کو اپنا کامل میچ تلاش کرنے میں مدد کر رہا ہے۔">A project of SulookFoundation.org - Pakistan's most trusted matrimonial platform helping thousands find their perfect match.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-ur="فوری لنکس">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-ur="ہوم">Home</a></li>
+                        <li><a href="#browse" data-en="Browse Profiles" data-ur="پروفائلز دیکھیں">Browse Profiles</a></li>
+                        <li><a href="#register" data-en="Register" data-ur="رجسٹر کریں">Register</a></li>
+                        <li><a href="#success" data-en="Success Stories" data-ur="کامیابی کی کہانیاں">Success Stories</a></li>
+                        <li><a href="#contact" data-en="Contact Us" data-ur="ہم سے رابطہ کریں">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Services" data-ur="خدمات">Services</h4>
+                    <ul>
+                        <li><a href="#" data-en="Premium Membership" data-ur="پریمیم ممبرشپ">Premium Membership</a></li>
+                        <li><a href="#" data-en="Profile Verification" data-ur="پروفائل کی تصدیق">Profile Verification</a></li>
+                        <li><a href="#" data-en="Match Making" data-ur="میچ میکنگ">Match Making</a></li>
+                        <li><a href="#" data-en="Wedding Planning" data-ur="شادی کی منصوبہ بندی">Wedding Planning</a></li>
+                        <li><a href="#" data-en="Customer Support" data-ur="کسٹمر سپورٹ">Customer Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Contact Info" data-ur="رابطے کی معلومات">Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope"></i> info@suchavar.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-en="Karachi, Pakistan" data-ur="کراچی، پاکستان">Karachi, Pakistan</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><span data-en="© 2025 Suchavar - SulookFoundation.org. All rights reserved." data-ur="© 2025 سچاور - سلوک فاؤنڈیشن ڈاٹ آرگ۔ تمام حقوق محفوظ ہیں۔">&copy; 2025 Suchavar - SulookFoundation.org. All rights reserved.</span> | <a href="#privacy" data-en="Privacy Policy" data-ur="پرائیویسی پالیسی">Privacy Policy</a> | <a href="#terms" data-en="Terms of Service" data-ur="سروس کی شرائط">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "name": "pak-matrimony-website",
+  "version": "1.0.0",
+  "description": "An elegant Pakistani matrimonial website inspired by shaadi.com with detailed match information forms",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'Building project...' && npm run minify",
+    "minify": "npx html-minifier --input-dir . --output-dir dist --file-ext html && npx clean-css-cli styles.css -o dist/styles.min.css && npx uglify-js script.js -o dist/script.min.js",
+    "lint": "npx eslint script.js",
+    "format": "npx prettier --write *.html *.css *.js",
+    "test": "echo 'No tests specified yet'",
+    "deploy": "echo 'Ready for deployment to Azure Static Web Apps or other hosting platforms'"
+  },
+  "keywords": [
+    "matrimony",
+    "wedding",
+    "marriage",
+    "pakistani",
+    "matchmaking",
+    "shaadi",
+    "responsive",
+    "website"
+  ],
+  "author": "PakMatrimony Development Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1",
+    "html-minifier": "^4.0.0",
+    "clean-css-cli": "^5.6.2",
+    "uglify-js": "^3.17.4",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pak-matrimony-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pak-matrimony-website/issues"
+  },
+  "homepage": "https://yourusername.github.io/pak-matrimony-website/"
+}
